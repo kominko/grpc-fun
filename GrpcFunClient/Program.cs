@@ -15,7 +15,7 @@ namespace GrpcFunClient
             var reply = await client.GetAllAsync(new EmptyRequest());
             Console.WriteLine("Countries: " + reply.Countries);
             Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }

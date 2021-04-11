@@ -1,0 +1,28 @@
+<p>Countries GRPC</p>
+
+<div class="countries">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        <tr *ngFor="let c of countriesGrpc">
+            <td>{{c.name}}</td>
+            <td>{{c.description}}</td>
+        </tr>
+    </table>
+</div>
+
+
+<div class="countries">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        <tr *ngFor="let c of countriesHttp">
+            <td>{{c.name}}</td>
+            <td>{{c.description}}</td>
+        </tr>
+    </table>
+</div>
