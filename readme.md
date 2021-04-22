@@ -6,6 +6,8 @@ There are 4 projects
 - AngularClient - web client
 - GrpcFunClient - .net core grpc client
 
+### How to run
+
 - You don't need to run the GrpcFunClient.
 - Open GrpcFunServer in VS/Code and run.
 - Open HttpApi in VS/Code and run.
