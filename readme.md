@@ -15,4 +15,4 @@ There are 4 projects
 - run (`ng serve -o` from terminal)
 - On the browser, hit F12 and view on the network tab to see the performance.
 
-**Use Chrome because Edgew will moan about TLS**
+**Use Chrome because Edge will moan about TLS**
