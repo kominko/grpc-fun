@@ -1,28 +1,31 @@
 <p>Countries GRPC</p>
 
 <div class="countries">
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Description</th>
-        </tr>
-        <tr *ngFor="let c of countriesGrpc">
-            <td>{{c.name}}</td>
-            <td>{{c.description}}</td>
-        </tr>
-    </table>
+  <button (click)="loadGrpc()" class="grpc">Load Grpc</button>
+
+  <table>
+    <tr>
+      <th class="name">Name</th>
+      <th class="desc">Description</th>
+    </tr>
+    <tr *ngFor="let c of countriesGrpc">
+      <td>{{ c.name }}</td>
+      <td>{{ c.description }}</td>
+    </tr>
+  </table>
 </div>
 
-
 <div class="countries">
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Description</th>
-        </tr>
-        <tr *ngFor="let c of countriesHttp">
-            <td>{{c.name}}</td>
-            <td>{{c.description}}</td>
-        </tr>
-    </table>
+  <button (click)="loadHttp()" class="http">Load Http</button>
+
+  <table>
+    <tr>
+      <th class="name">Name</th>
+      <th class="desc">Description</th>
+    </tr>
+    <tr *ngFor="let c of countriesHttp">
+      <td>{{ c.name }}</td>
+      <td>{{ c.description }}</td>
+    </tr>
+  </table>
 </div>
